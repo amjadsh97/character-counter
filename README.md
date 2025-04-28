@@ -1,54 +1,72 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Character counter solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Character counter challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/character-counter-znSgeWs_i6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Overview
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### The challenge
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Users should be able to:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Analyze the character, word, and sentence counts for their text
+- Exclude/Include spaces in their character count
+- Set a character limit
+- Receive a warning message if their text exceeds their character limit
+- See the approximate reading time of their text
+- Analyze the letter density of their text
+- Select their color theme
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: https://github.com/amjadsh97/character-counter
+- Live Site URL: https://character-counter-iota-one.vercel.app/
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS
+- Flexbox
+- Typescript
+- [React](https://reactjs.org/) - JS library
+
+
+### What I Learned
+I learn and make a revision about regex in javascript
+
+### Continued Development
+I plan to learn more regex rules to improve my skills.
+
+### Useful resources
+- [React Docs](https://react.dev/) - This helped me for building react components. I really liked using this docs.
+
+
+## Author
+
+- Website - [Amjad Shadid](https://amjadshadid.com)
+- Frontend Mentor - [@amjadsh97](https://www.frontendmentor.io/profile/amjadsh97)
+- Twitter - [@Amjadshadid](https://twitter.com/Amjadshadid)
+- Linkedin - [@Amjad Shadid](https://www.linkedin.com/in/amjad-shadid-134355134/)
