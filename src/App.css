@@ -129,6 +129,7 @@ label.textarea-wrapper {
 
 .textarea-element textarea {
   width: 100%;
+  height: 200px;
   background-color: transparent;
   padding: 10px;
   color: var(--textarea-text);
