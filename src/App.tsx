@@ -94,12 +94,12 @@ function App() {
           <main>
             <header className='header'>
               <div className="image-wrapper">
-                {isLight ? <img src="../public/images/logo-light-theme.svg" alt="logo"/> :
-                  <img src="../public/images/logo-dark-theme.svg" alt="logo"/>}
+                {isLight ? <img src="/public/images/logo-light-theme.svg" alt="logo"/> :
+                  <img src="/public/images/logo-dark-theme.svg" alt="logo"/>}
               </div>
               <button className='theme-button' onClick={() => setIsLight(prev => !prev)}>
-                {isLight ? <img src="../public/images/icon-moon.svg" alt="theme image"/> :
-                  <img src="../public/images/icon-sun.svg" alt="theme image"/>
+                {isLight ? <img src="/public/images/icon-moon.svg" alt="theme image"/> :
+                  <img src="/public/images/icon-sun.svg" alt="theme image"/>
                 }
               </button>
             </header>
@@ -168,7 +168,7 @@ function App() {
                   ))}
 									<button className='show-more-content text-preset-3' onClick={() => setShowMoreItems(prev => !prev)}>
 										<span>{showMoreItems ? "See more" : "See less"}</span>
-										<img className={`${showMoreItems ? "" : "reverse"}`} src="../public/images/arrow-light.png" alt=""/>
+										<img className={`${showMoreItems ? "" : "reverse"}`} src="/public/images/arrow-light.png" alt=""/>
 									</button>
 								</>
 							</ul>}
