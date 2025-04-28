@@ -250,13 +250,13 @@ p.reading-time {
 }
 
 .card:nth-child(1):before  {
-  background-image: url(public/images/pattern-character-count.svg);
+  background-image: url(/images/pattern-character-count.svg);
 }
 .card:nth-child(2):before  {
-  background-image: url(public/images/pattern-word-count.svg);
+  background-image: url(/images/pattern-word-count.svg);
 }
 .card:nth-child(3):before  {
-  background-image: url(public/images/pattern-sentence-count.svg);
+  background-image: url(/images/pattern-sentence-count.svg);
 }
 
 
