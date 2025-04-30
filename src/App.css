@@ -229,6 +229,9 @@ p.reading-time {
   position: relative;
   overflow: hidden;
   min-width: 319px;
+}
+
+.card * {
   z-index: 1;
 }
 
