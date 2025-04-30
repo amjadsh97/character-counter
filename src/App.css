@@ -229,6 +229,7 @@ p.reading-time {
   position: relative;
   overflow: hidden;
   min-width: 319px;
+  z-index: 1;
 }
 
 .card:nth-child(1) {
@@ -360,7 +361,5 @@ span.letter {
     min-width: 100%;
   }
 
-  .card *{
-    z-index: 1;
-  }
+
 }
